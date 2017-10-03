@@ -24,7 +24,7 @@ class CfgClans
 
 		NOTE: 
 	*/
-	clanNameAlphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ._-!\\/";
+	clanNameAlphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ._-";
 
 	/*
 
@@ -2037,11 +2037,11 @@ class CfgExileArsenal
 	class optic_LRPS								{ quality = 5; price = 300; };
 	class optic_MRCO								{ quality = 1; price = 100; };
 	class optic_MRD									{ quality = 1; price = 10; };
-	class optic_Nightstalker						{ quality = 6; price = 1000; };
-	class optic_NVS									{ quality = 4; price = 500; };
+	// class optic_Nightstalker						{ quality = 6; price = 1000; };
+	// class optic_NVS								{ quality = 4; price = 500; };
 	class optic_SOS									{ quality = 2; price = 200; };
-	//class optic_tws									{ quality = QUALITY_LEVEL_9000; price = 1500; };
-	//class optic_tws_mg								{ quality = QUALITY_LEVEL_9000; price = 1500; };
+	// class optic_tws								{ quality = QUALITY_LEVEL_9000; price = 1500; };
+	// class optic_tws_mg							{ quality = QUALITY_LEVEL_9000; price = 1500; };
 	class optic_Yorris								{ quality = 1; price = 10; };
 
 	///////////////////////////////////////////////////////////////////////////////
@@ -2561,10 +2561,8 @@ class CfgExileArsenal
 	class arifle_CTAR_hex_F           { quality = 2; price = 450; };
 	class arifle_CTAR_ghex_F          { quality = 2; price = 450; };
 	class arifle_CTAR_GL_blk_F        { quality = 2; price = 450; };
-	class arifle_CTAR_GL_ghex_F       { quality = 2; price = 450; };
-	class arifle_CTAR_GL_hex_F        { quality = 2; price = 450; };
 	class arifle_CTARS_blk_F          { quality = 2; price = 450; };
-	class arifle_CTARS_ghex_F         { quality = 2; price = 450; };
+	class arifle_CTARS_ghex_F          { quality = 2; price = 450; };
 	class arifle_CTARS_hex_F          { quality = 2; price = 450; };
 	class arifle_SPAR_01_blk_F        { quality = 1; price = 400; };
 	class arifle_SPAR_01_khk_F        { quality = 1; price = 400; };
@@ -2742,6 +2740,181 @@ class CfgExileArsenal
 	class V_DeckCrew_white_F						{ quality = 2; price = 30; };
 	class V_DeckCrew_brown_F						{ quality = 2; price = 30; };
 	class V_DeckCrew_violet_F						{ quality = 2; price = 30; };
+
+
+	///////////////////////////////////////////////////////////////////////////////
+	// BUNDESWEHR
+	///////////////////////////////////////////////////////////////////////////////
+	
+	// BWItems
+    class BWA3_ItemNaviPad                          {quality = 5; price = 50; };
+    class BWA3_Vector                               {quality = 5; price = 50; };
+    
+    // BWOptics
+    class BWA3_optic_RSAS                           {quality = 5; price = 250; };
+    class BWA3_optic_Aimpoint                       {quality = 5; price = 250; };
+    class BWA3_optic_EOTech                         {quality = 5; price = 250; };
+    class BWA3_optic_EOTech_tan                     {quality = 5; price = 250; };
+    class BWA3_optic_Attachment_base                {quality = 5; price = 250; };
+    class BWA3_optic_ZO4x30                         {quality = 5; price = 250; };
+    class BWA3_optic_ZO4x30_Single                  {quality = 5; price = 250; };
+    class BWA3_optic_Shortdot                       {quality = 5; price = 250; };
+    class BWA3_optic_20x50                          {quality = 5; price = 250; };
+    class BWA3_optic_24x72                          {quality = 5; price = 250; };
+    
+    // BWVests
+    class BWA3_Vest_Fleck                           {quality = 5; price = 100; };
+    class BWA3_Vest_Tropen                          {quality = 5; price = 100; };
+    class BWA3_Vest_Rifleman1_Fleck                 {quality = 5; price = 100; };
+    class BWA3_Vest_Rifleman1_Tropen                {quality = 5; price = 100; };
+    class BWA3_Vest_Autorifleman_Fleck              {quality = 5; price = 100; };
+    class BWA3_Vest_Autorifleman_Tropen             {quality = 5; price = 100; };
+    class BWA3_Vest_Grenadier_Fleck                 {quality = 5; price = 100; };
+    class BWA3_Vest_Grenadier_Tropen                {quality = 5; price = 100; };
+    class BWA3_Vest_Medic_Fleck                     {quality = 5; price = 100; };
+    class BWA3_Vest_Medic_Tropen                    {quality = 5; price = 100; };
+    class BWA3_Vest_Marksman_Fleck                  {quality = 5; price = 100; };
+    class BWA3_Vest_Marksman_Tropen                 {quality = 5; price = 100; };
+    class BWA3_Vest_Leader_Fleck                    {quality = 5; price = 100; };
+    class BWA3_Vest_Leader_Tropen                   {quality = 5; price = 100; };
+    class BWA3_Vest_JPC_Rifleman_Fleck              {quality = 5; price = 100; };
+    class BWA3_Vest_JPC_Rifleman_Tropen             {quality = 5; price = 100; };
+    class BWA3_Vest_JPC_Leader_Fleck                {quality = 5; price = 100; };
+    class BWA3_Vest_JPC_Leader_Tropen               {quality = 5; price = 100; };
+    class BWA3_Vest_JPC_Radioman_Fleck              {quality = 5; price = 100; };
+    class BWA3_Vest_JPC_Radioman_Tropen             {quality = 5; price = 100; };
+    
+    // BWMuzzles
+    class BWA3_muzzle_snds_G28                      {quality = 5; price = 200; };
+    class BWA3_muzzle_snds_G36                      {quality = 5; price = 200; };
+    class BWA3_muzzle_snds_MP7                      {quality = 5; price = 200; };
+    
+    // BWUniforms
+    class BWA3_Uniform_idz_Fleck                    {quality = 5; price = 150; };
+    class BWA3_Uniform_idz_Tropen                   {quality = 5; price = 150; };
+    class BWA3_Uniform2_idz_Fleck                   {quality = 5; price = 150; };
+    class BWA3_Uniform2_idz_Tropen                  {quality = 5; price = 150; };
+    class BWA3_Uniform3_idz_Fleck                   {quality = 5; price = 150; };
+    class BWA3_Uniform3_idz_Tropen                  {quality = 5; price = 150; };
+    class BWA3_Uniform_Ghillie_idz_Fleck            {quality = 5; price = 150; };
+    class BWA3_Uniform_Ghillie_idz_Tropen           {quality = 5; price = 150; };
+    class BWA3_Uniform_Fleck                        {quality = 5; price = 150; };
+    class BWA3_Uniform_Tropen                       {quality = 5; price = 150; };
+    class BWA3_Uniform2_Fleck                       {quality = 5; price = 150; };
+    class BWA3_Uniform2_Tropen                      {quality = 5; price = 150; };
+    class BWA3_Uniform_Ghillie_Fleck                {quality = 5; price = 150; };
+    class BWA3_Uniform_Ghillie_Tropen               {quality = 5; price = 150; };
+    class BWA3_Uniform_Crew_Fleck                   {quality = 5; price = 150; };
+    class BWA3_Uniform_Crew_Tropen                  {quality = 5; price = 150; };
+    class BWA3_Uniform_Helipilot                    {quality = 5; price = 150; };
+    
+    // BWHeadgear
+    class BWA3_OpsCore_Fleck                        {quality = 5; price = 75; };
+    class BWA3_OpsCore_Fleck_Patch                  {quality = 5; price = 75; };
+    class BWA3_OpsCore_Fleck_Camera                 {quality = 5; price = 75; };
+    class BWA3_OpsCore_Tropen                       {quality = 5; price = 75; };
+    class BWA3_OpsCore_Tropen_Patch                 {quality = 5; price = 75; };
+    class BWA3_OpsCore_Tropen_Camera                {quality = 5; price = 75; };
+    class BWA3_OpsCore_Schwarz                      {quality = 5; price = 75; };
+    class BWA3_OpsCore_Schwarz_Camera               {quality = 5; price = 75; };
+    class BWA3_CrewmanKSK_Fleck                     {quality = 5; price = 75; };
+    class BWA3_CrewmanKSK_Tropen                    {quality = 5; price = 75; };
+    class BWA3_CrewmanKSK_Schwarz                   {quality = 5; price = 75; };
+    class BWA3_CrewmanKSK_Fleck_Headset             {quality = 5; price = 75; };
+    class BWA3_CrewmanKSK_Tropen_Headset            {quality = 5; price = 75; };
+    class BWA3_CrewmanKSK_Schwarz_Headset           {quality = 5; price = 75; };
+    class BWA3_MICH_Fleck                           {quality = 5; price = 75; };
+    class BWA3_MICH_Tropen                          {quality = 5; price = 75; };
+    class BWA3_M92_Fleck                            {quality = 5; price = 75; };
+    class BWA3_M92_Tropen                           {quality = 5; price = 75; };
+    class BWA3_Booniehat_Fleck                      {quality = 5; price = 75; };
+    class BWA3_Booniehat_Tropen                     {quality = 5; price = 75; };
+    class BWA3_Beret_PzGren                         {quality = 5; price = 75; };
+    class BWA3_Beret_Pz                             {quality = 5; price = 75; };
+    class BWA3_Beret_PzAufkl                        {quality = 5; price = 75; };
+    class BWA3_Beret_Jaeger                         {quality = 5; price = 75; };
+    class BWA3_Beret_Falli                          {quality = 5; price = 75; };
+    class BWA3_Beret_HFlieger                       {quality = 5; price = 75; };
+    class BWA3_Beret_Wach_Gruen                     {quality = 5; price = 75; };
+    class BWA3_Beret_Wach_Blau                      {quality = 5; price = 75; };
+    
+    // BWPistols
+    class BWA3_P8                                   {quality = 5; price = 400; };
+    class BWA3_MP7                                  {quality = 5; price = 400; };
+    
+    // BWRifles
+    class BWA3_G36                                  {quality = 5; price = 750; };
+    class BWA3_G36K                                 {quality = 5; price = 750; };
+    class BWA3_G36_AG                               {quality = 5; price = 750; };
+    class BWA3_G36K_AG                              {quality = 5; price = 750; };
+    class BWA3_G36_LMG                              {quality = 5; price = 750; };
+    class BWA3_G38                                  {quality = 5; price = 750; };
+    class BWA3_G38K                                 {quality = 5; price = 750; };
+    class BWA3_G38C                                 {quality = 5; price = 750; };
+    class BWA3_G38_AG                               {quality = 5; price = 750; };
+    class BWA3_G38K_AG                              {quality = 5; price = 750; };
+    class BWA3_G38_Tan                              {quality = 5; price = 750; };
+    class BWA3_G38_AG_Tan                           {quality = 5; price = 750; };
+    class BWA3_G38K_Tan                             {quality = 5; price = 750; };
+    class BWA3_G38K_AG_Tan                          {quality = 5; price = 750; };
+    class BWA3_G38C_Tan                             {quality = 5; price = 750; };
+    class BWA3_G28_Standard                         {quality = 5; price = 750; };
+    class BWA3_G28_Assault                          {quality = 5; price = 750; };
+    class BWA3_G27                                  {quality = 5; price = 750; };
+    class BWA3_G27_Tan                              {quality = 5; price = 750; };
+    class BWA3_G27_AG                               {quality = 5; price = 750; };
+    class BWA3_G27_Tan_AG                           {quality = 5; price = 750; };
+    class BWA3_MG4                                  {quality = 5; price = 750; };
+    class BWA3_MG5                                  {quality = 5; price = 750; };
+    class BWA3_MG5_Tan                              {quality = 5; price = 750; };
+    class BWA3_G82                                  {quality = 5; price = 750; };
+    
+    // BWMagazines
+    class BWA3_DM51A1                               {quality = 5; price = 50; };
+    class BWA3_DM25                                 {quality = 5; price = 50; };
+    class BWA3_DM32_Orange                          {quality = 5; price = 50; };
+    class BWA3_DM32_Yellow                          {quality = 5; price = 50; };
+    class BWA3_30Rnd_556x45_G36                     {quality = 5; price = 50; };
+    class BWA3_30Rnd_556x45_G36_Tracer              {quality = 5; price = 50; };
+    class BWA3_30Rnd_556x45_G36_Tracer_Dim          {quality = 5; price = 50; };
+    class BWA3_30Rnd_556x45_G36_SD                  {quality = 5; price = 50; };
+    class BWA3_30Rnd_556x45_G36_AP                  {quality = 5; price = 50; };
+    class BWA3_100Rnd_556x45_G36                    {quality = 5; price = 50; };
+    class BWA3_100Rnd_556x45_G36_Tracer             {quality = 5; price = 50; };
+    class BWA3_10Rnd_762x51_G28                     {quality = 5; price = 50; };
+    class BWA3_10Rnd_762x51_G28_Tracer              {quality = 5; price = 50; };
+    class BWA3_10Rnd_762x51_G28_Tracer_Dim          {quality = 5; price = 50; };
+    class BWA3_10Rnd_762x51_G28_SD                  {quality = 5; price = 50; };
+    class BWA3_10Rnd_762x51_G28_AP                  {quality = 5; price = 50; };
+    class BWA3_10Rnd_762x51_G28_LR                  {quality = 5; price = 50; };
+    class BWA3_20Rnd_762x51_G28                     {quality = 5; price = 50; };
+    class BWA3_20Rnd_762x51_G28_Tracer              {quality = 5; price = 50; };
+    class BWA3_20Rnd_762x51_G28_Tracer_Dim          {quality = 5; price = 50; };
+    class BWA3_20Rnd_762x51_G28_AP                  {quality = 5; price = 50; };
+    class BWA3_20Rnd_762x51_G28_SD                  {quality = 5; price = 50; };
+    class BWA3_15Rnd_9x19_P8                        {quality = 5; price = 50; };
+    class BWA3_40Rnd_46x30_MP7                      {quality = 5; price = 50; };
+    class BWA3_40Rnd_46x30_MP7_SD                   {quality = 5; price = 50; };
+    class BWA3_1Rnd_Flare_Singlestar_White          {quality = 5; price = 50; };
+    class BWA3_1Rnd_Flare_Singlestar_Green          {quality = 5; price = 50; };
+    class BWA3_1Rnd_Flare_Singlestar_Red            {quality = 5; price = 50; };
+    class BWA3_1Rnd_Flare_Illum                     {quality = 5; price = 50; };
+    class BWA3_1Rnd_Flare_Multistar_White           {quality = 5; price = 50; };
+    class BWA3_1Rnd_Flare_Multistar_Green           {quality = 5; price = 50; };
+    class BWA3_1Rnd_Flare_Multistar_Red             {quality = 5; price = 50; };
+    class BWA3_200Rnd_556x45                        {quality = 5; price = 50; };
+    class BWA3_200Rnd_556x45_Tracer                 {quality = 5; price = 50; };
+    class BWA3_120Rnd_762x51                        {quality = 5; price = 50; };
+    class BWA3_120Rnd_762x51_Tracer                 {quality = 5; price = 50; };
+    class BWA3_10Rnd_127x99_G82                     {quality = 5; price = 50; };
+    class BWA3_10Rnd_127x99_G82_Tracer              {quality = 5; price = 50; };
+    class BWA3_10Rnd_127x99_G82_Tracer_Dim          {quality = 5; price = 50; };
+    class BWA3_10Rnd_127x99_G82_AP                  {quality = 5; price = 50; };
+    class BWA3_10Rnd_127x99_G82_AP_Tracer           {quality = 5; price = 50; };
+    class BWA3_10Rnd_127x99_G82_SD                  {quality = 5; price = 50; };
+    class BWA3_10Rnd_127x99_G82_Raufoss             {quality = 5; price = 50; };
+    class BWA3_10Rnd_127x99_G82_Raufoss_Tracer      {quality = 5; price = 50; };
+    class BWA3_10Rnd_127x99_G82_Raufoss_Tracer_Dim  {quality = 5; price = 50; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// BIKES
@@ -3137,6 +3310,14 @@ class CfgExileArsenal
 	class Exile_Car_Tempest 							{ quality = 4; price = 48300; };
 
 	///////////////////////////////////////////////////////////////////////////////
+	// Sprinter
+	///////////////////////////////////////////////////////////////////////////////
+	class C_Van_02_transport_F 							{ quality = 1; price = 10000; };
+	class C_Van_02_vehicle_F 							{ quality = 1; price = 10000; };
+	class C_Van_02_service_F 							{ quality = 1; price = 10000; };
+	class C_Van_02_medevac_F 							{ quality = 1; price = 10000; };
+
+	///////////////////////////////////////////////////////////////////////////////
 	// Van
 	///////////////////////////////////////////////////////////////////////////////
 	class Exile_Car_Van_Black 							{ quality = 2; price = 12000; };
@@ -3397,40 +3578,6 @@ class CfgExileEnvironment
 			daytimeTemperature[] = {15.93,16.89,18.42,20.40,22.68,25.10,27.48,29.63,31.40,32.66,33.32,33.80,33.80,33.32,32.66,31.40,29.63,27.48,25.10,22.68,20.40,18.42,16.89,15.93,15.93};
 		};
 	};
-
-	class Malden: Altis
-	{
-		class FireFlies: FireFlies
-		{
-			enable = 1;
-		};
-
-		class Anomalies: Anomalies
-		{
-			enable = 0;
-		};
-
-		class Breathing: Breathing
-		{
-			enable = 0;
-		};
-
-		class Snow: Snow
-		{
-			enable = 0;
-		};
-
-		class Radiation: Radiation
-		{
-			enable = 0;
-		};
-
-		class Temperature: Temperature
-		{
-			daytimeTemperature[] = {15.93,16.89,18.42,20.40,22.68,25.10,27.48,29.63,31.40,32.66,33.32,33.80,33.80,33.32,32.66,31.40,29.63,27.48,25.10,22.68,20.40,18.42,16.89,15.93,15.93};
-		};
-	};
-	
 };
 class CfgExileHUD
 {
@@ -3510,7 +3657,7 @@ class CfgExileLootSettings
 	 * Interval in seconds when the client searches for
 	 * new buildings to spawn loot in
 	 */
-	spawnInterval = 30;
+	spawnInterval = 20;
 
 	/**
 	 * This is a percentage value to determine how many loot
@@ -3524,7 +3671,7 @@ class CfgExileLootSettings
 	 *
 	 * You can also cap it at a maximum value. See below.
 	 */
-	maximumPositionCoverage = 30;
+	maximumPositionCoverage = 50;
 
  	/**
  	 * Limit the number of loot positions per building. If the 
@@ -3534,14 +3681,14 @@ class CfgExileLootSettings
  	 * This results in 30 loot positions and that is too much. So we
  	 * cap this at 10
  	 */
-	maximumNumberOfLootSpotsPerBuilding = 3;
+	maximumNumberOfLootSpotsPerBuilding = 5;
 
 	/**
 	 * Exile spawns a random number of items per loot spot. This 
 	 * is the upper cap for that. So 3 means it could spawn 1, 2 
 	 * or 3.
 	 */
-	maximumNumberOfItemsPerLootSpot = 2;
+	maximumNumberOfItemsPerLootSpot = 4;
 
 	/**
 	 * Radius in meter to spawn loot AROUND each player.
@@ -3552,7 +3699,7 @@ class CfgExileLootSettings
 	 * 50m  = Minimum
 	 * 200m = Maximum
 	 */
-	spawnRadius = 60;
+	spawnRadius = 75;
 
 	/**
 	 * Defines the radius around trader cities where the system should
@@ -4328,21 +4475,21 @@ class CfgLocker
 {
 	numbersOnly = "0123456789";
 	
-	maxDeposit = 10000;
+	maxDeposit = 50000;
 };
 
 class CfgPlayer 
 {
 	// In minutes ammount of time it takes to go from 100 - 0 if stationary
-	hungerDecay = 90;
-	thirstDecay = 60;
+	hungerDecay = 120;
+	thirstDecay = 90;
 
 	// Damage taken from 0 (health||thirst)/sec
-	healthDecay = 5.0;
+	healthDecay = 1;
 
 	// Health regen if over BOTH
-	thirstRegen = 90;
-	hungerRegen = 90;
+	thirstRegen = 75;
+	hungerRegen = 75;
 
 	// IF above meet recover HP%/MIN
 	recoveryPerMinute = 2;
@@ -4366,7 +4513,7 @@ class CfgPlayer
 class CfgSlothMachine
 {
 	spinCost = 100;
-	Jackpot = 10100;
+	Jackpot = 10000;
 	
 	chances[] = 
 	{
@@ -4425,7 +4572,7 @@ class CfgTerritories
 	{
 		// Purchase Price 		Radius 		Number of Objects
 		{5000,					15,			30 					}, // Level 1
-		{10000,					30,			60 					}, // Level 2 
+		{10000,					30,			60 					}, // Level 2
 		{15000,					45,			90 					}, // Level 3
 		{20000,					60,			120					}, // Level 4
 		{25000,					75,			150					}, // Level 5
@@ -4458,7 +4605,7 @@ class CfgTerritories
 	minimumDistanceToSpawnZones = 1000;
 
 	// Amount of pop tabs per object to pay
-	popTabAmountPerObject = 10;
+	popTabAmountPerObject = 5;
 };
 class CfgTraderCategories
 {
@@ -5772,46 +5919,26 @@ class CfgTraderCategories
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] =
 		{
-			"Exile_Car_Kart_Black",
 			"Exile_Bike_QuadBike_Black",
-			"Exile_Car_OldTractor_Red",
-			"Exile_Car_TowTractor_White",
-			"Exile_Car_Tractor_Red",
 			"Exile_Car_UAZ_Green",
 			"Exile_Car_UAZ_Open_Green",
-			"Exile_Car_Octavius_White",
-			"Exile_Car_Golf_Red",
 			"Exile_Car_LandRover_Green",
 			"Exile_Car_LandRover_Ambulance_Green",
-			"Exile_Car_Lada_Green",
-			"Exile_Car_Volha_White",
 			"Exile_Car_Hatchback_Rusty1",
 			"Exile_Car_Hatchback_Rusty2",
 			"Exile_Car_Hatchback_Rusty3",
 			"Exile_Car_Hatchback_Sport_Red",
-			"Exile_Car_SUV_Red",
-			"Exile_Car_SUVXL_Black",
-			"Exile_Car_SUV_Armed_Black",
 			"Exile_Car_Offroad_Rusty1",
 			"Exile_Car_Offroad_Rusty2",
 			"Exile_Car_Offroad_Rusty3",
 			"Exile_Car_Offroad_Repair_Civillian",
 			"Exile_Car_Offroad_Armed_Guerilla01",
-			"Exile_Car_BRDM2_HQ",
-			"Exile_Car_BTR40_MG_Green",
-			"Exile_Car_BTR40_Green",
-			"Exile_Car_HMMWV_M134_Green",
-			"Exile_Car_HMMWV_M2_Green",
-			"Exile_Car_HMMWV_MEV_Green",
-			"Exile_Car_HMMWV_UNA_Green",
 			"Exile_Car_Strider",
 			"Exile_Car_Hunter",
 			"Exile_Car_Ifrit",
 			"Exile_Car_ProwlerLight",
 			"Exile_Car_ProwlerUnarmed",
 			"Exile_Car_QilinUnarmed",
-			"Exile_Car_MB4WD",
-			"Exile_Car_MB4WDOpen"
 		};
 	};
 
@@ -5829,6 +5956,10 @@ class CfgTraderCategories
 			"Exile_Car_V3S_Covered",
 			"Exile_Car_Zamak",
 			"Exile_Car_Tempest",
+			"C_Van_02_transport_F",
+			"C_Van_02_vehicle_F",
+			"C_Van_02_service_F",
+			"C_Van_02_medevac_F",
 			"Exile_Car_HEMMT",
 			"Exile_Car_Ikarus_Blue"
 		};
