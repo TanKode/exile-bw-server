@@ -43,21 +43,21 @@ _maxDistance = _middle;
 
 if(_vehiclesToSpawn > 0) then
 {
-    if(SC_occupyVehicleSurvivors) then
-    {
-        // decide which side to spawn
-        _sideToSpawn = random 100; 
-        if(_sideToSpawn <= SC_SurvivorsChance) then  
-        { 
-            _side = "survivor";   
-        };         
-    };
- 
 	_useLaunchers = DMS_ai_use_launchers;
  	for "_i" from 1 to _vehiclesToSpawn do
 	{
 		if (_vehiclesToSpawn > 0) then
 		{
+            _side = "bandit";
+            if(SC_occupyVehicleSurvivors) then
+            {
+                _sideToSpawn = random 100;
+                if(_sideToSpawn <= SC_SurvivorsChance) then
+                {
+                    _side = "survivor";
+                };
+            };
+
 			private["_group"];
 			
 			_locationArray = SC_occupyVehicleFixedPositions;
