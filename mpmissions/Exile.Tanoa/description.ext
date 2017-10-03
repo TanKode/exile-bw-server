@@ -1,3 +1,5 @@
+#include "CfgRemoteExec.hpp"
+#include "infiSTAR_Exile_AdminMenu.hpp"
 #define true 1
 #define false 0
 
@@ -69,7 +71,7 @@ showHUD[] =
 
 #include "config.cpp"
 
-class CfgRemoteExec
+class CfgRemoteExecAntiHackOverride
 {
     class Functions
     {
